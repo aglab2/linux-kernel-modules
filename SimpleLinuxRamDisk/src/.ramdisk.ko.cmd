@@ -1,0 +1,1 @@
+cmd_/home/aglab2/Documents/SimpleLinuxRamDisk/src/ramdisk.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/aglab2/Documents/SimpleLinuxRamDisk/src/ramdisk.ko /home/aglab2/Documents/SimpleLinuxRamDisk/src/ramdisk.o /home/aglab2/Documents/SimpleLinuxRamDisk/src/ramdisk.mod.o ;  true
